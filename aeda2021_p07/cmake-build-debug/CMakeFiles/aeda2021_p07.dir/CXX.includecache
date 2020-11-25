@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/aeda2021_p07/Tests/binaryTree.h
+iostream
+-
+stack
+-
+queue
+-
+
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/aeda2021_p07/Tests/game.cpp
+game.h
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/aeda2021_p07/Tests/game.h
+sstream
+-
+
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/aeda2021_p07/Tests/game.h
+binaryTree.h
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/aeda2021_p07/Tests/binaryTree.h
+iostream
+-
+stdlib.h
+-
+
