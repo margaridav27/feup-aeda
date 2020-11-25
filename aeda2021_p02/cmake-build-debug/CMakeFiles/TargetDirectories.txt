@@ -1,0 +1,3 @@
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/aeda2021_p02/cmake-build-debug/CMakeFiles/aeda2021_p02.dir
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/aeda2021_p02/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/aeda2021_p02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
