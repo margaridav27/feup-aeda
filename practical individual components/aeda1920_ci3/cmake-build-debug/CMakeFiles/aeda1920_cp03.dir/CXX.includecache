@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/to do/aeda1920_ci3/Tests/Gallery.cpp
+Gallery.h
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/to do/aeda1920_ci3/Tests/Gallery.h
+Paint.h
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/to do/aeda1920_ci3/Tests/Paint.h
+ostream
+-
+algorithm
+-
+
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/to do/aeda1920_ci3/Tests/Gallery.h
+bst.h
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/to do/aeda1920_ci3/Tests/bst.h
+vector
+-
+unordered_set
+-
+queue
+-
+Paint.h
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/to do/aeda1920_ci3/Tests/Paint.h
+
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/to do/aeda1920_ci3/Tests/Paint.h
+string
+-
+ostream
+-
+
+C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/to do/aeda1920_ci3/Tests/bst.h
+iostream
+-
+stack
+-
+queue
+-
+
