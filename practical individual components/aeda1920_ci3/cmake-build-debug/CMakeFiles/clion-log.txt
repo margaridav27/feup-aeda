@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\to do\aeda1920_ci3"
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1920_ci3"
 -- The C compiler identification is GNU 8.1.0
 -- The CXX compiler identification is GNU 8.1.0
 -- Check for working C compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe
@@ -16,4 +16,4 @@
 -- Found PythonInterp: C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/python.exe (found version "3.7.5") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/to do/aeda1920_ci3/cmake-build-debug
+-- Build files have been written to: C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/feup-aeda/practical individual components/aeda1920_ci3/cmake-build-debug

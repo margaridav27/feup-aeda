@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/to do/aeda1920_ci3/lib/googletest-master
+# Install script for directory: C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/feup-aeda/practical individual components/aeda1920_ci3/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/to do/aeda1920_ci3/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("C:/Users/Margarida Viera/Desktop/uni, 2nd year/AEDA/feup-aeda/practical individual components/aeda1920_ci3/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 

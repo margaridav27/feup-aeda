@@ -78,23 +78,9 @@ vector<Paint*> Gallery::getPaintsBetween(int y1, int y2) const {
 
 //TODO
 bool Gallery::updateTitle(Paint* p, string tnew) {
-    /*
-    PaintCatalogItem toUpdate = catalog.find(p);
-    if (toUpdate == NULL) {
-        return false;
-    }
-    if (!catalog.remove(p)) {
-        PaintCatalogItem updated(toUpdate.getAuthor(), tnew, toUpdate.getYear(), toUpdate.getPrice());
-        catalog.insert(updated);
-        return true;
-    }
-    return false;
-    */
-
-    /*
     BSTItrIn<PaintCatalogItem> itr(catalog);
     while (!itr.isAtEnd()) {
-        if (itr.retrieve().getPaint() == p) {
+        if (itr.retrieve() == p) {
             if (!catalog.remove(itr.retrieve())) {
                 return false;
             }
@@ -105,19 +91,20 @@ bool Gallery::updateTitle(Paint* p, string tnew) {
         itr.advance();
     }
     return false;
-    */
 
+    /*
     if(!catalog.remove(PaintCatalogItem(p))) {
         return false;
     }
-    PaintCatalogItem updated(p->getAuthor(),tnew, p->getYear(), p->getPrice());
+    PaintCatalogItem updated(p->getAuthor(), tnew, p->getYear(), p->getPrice());
     catalog.insert(updated);
     return true;
+     */
 
 }
 
 //TODO
-int Gallery::recordAvailablePainters() { //carrega a tabela de dispersao com AuthorRecords
+int Gallery::recordAvailablePainters() {
     for (auto p = collection.begin(); p != collection.end(); p++) {
         bool found = false;
         for (auto ar = authorRecords.begin(); ar != authorRecords.end(); ar++) {
@@ -185,7 +172,7 @@ int Gallery::itemExhibitionOrder(string a, string t) {
 }
 
 //TODO
-vector<Paint*> Gallery::nBestExhibition(int n, int maxPerYear) {  //escolhe as N mais caras pinturas, dos anos mais antigos, para realizar uma exposição
+vector<Paint*> Gallery::nBestExhibition(int n, int maxPerYear) {
     vector<Paint*> exhibition;
     priority_queue<ExhibitionItem> aux; //keeps track of the paints that are not added to the exhibition
     int countYear = 0, currYear = paintsToShow.top().getYear();
