@@ -7,72 +7,73 @@
 
 #include "FEUPConsulting.h"
 
-FEUPConsulting::FEUPConsulting(): expertizes(Expertize("", 0)) {
+FEUPConsulting::FEUPConsulting() : expertizes(Expertize("", 0)) {
 }
 
-FEUPConsulting::FEUPConsulting(vector<Project*> projects): expertizes(Expertize("", 0)) {
-	this->projects = projects;
+FEUPConsulting::FEUPConsulting(vector<Project *> projects) : expertizes(Expertize("", 0)) {
+    this->projects = projects;
 }
 
-void FEUPConsulting::addProjects(vector<Project*> projects) {
-	this->projects = projects;
+void FEUPConsulting::addProjects(vector<Project *> projects) {
+    this->projects = projects;
 }
 
-vector<Project*> FEUPConsulting::getProjects() const{
-	return this->projects;
+vector<Project *> FEUPConsulting::getProjects() const {
+    return this->projects;
 }
 
 
 // get the expertize objet with the given name, including all students with the corresponding skills
 Expertize FEUPConsulting::getExpertize(string name, unsigned cost) {
-	Expertize itemNotFound("", 0);
-	Expertize expertize(name, cost);
-	Expertize search = expertizes.find(expertize);
+    Expertize itemNotFound("", 0);
+    Expertize expertize(name, cost);
+    Expertize search = expertizes.find(expertize);
 
-	return search;
+    return search;
 }
 
 
-void FEUPConsulting::addProject(Project* project) {
-	//TODO
-	Expertize itemNotFound("", 0);
-	Expertize expertize(project->getExpertize(), project->getCost());
-	Expertize search = expertizes.find(expertize);
+void FEUPConsulting::addProject(Project *project) {
+    //TODO
+    Expertize itemNotFound("", 0);
+    Expertize expertize(project->getExpertize(), project->getCost());
+    Expertize search = expertizes.find(expertize);
 
-	if(search == itemNotFound) {
-		this->expertizes.insert(expertize);
-	}
+    if (search == itemNotFound) {
+        this->expertizes.insert(expertize);
+    }
 
-	projects.push_back(project);
+    projects.push_back(project);
 }
 
 BST<Expertize> FEUPConsulting::getExpertizes() const {
-	return this->expertizes;
+    return this->expertizes;
 }
 
-void FEUPConsulting::addNewExpertize(const Expertize & expertize1) {
-	this->expertizes.insert(expertize1);
+void FEUPConsulting::addNewExpertize(const Expertize &expertize1) {
+    this->expertizes.insert(expertize1);
 }
 
-vector<StudentPtr> FEUPConsulting::getStudents() const {
-	vector<StudentPtr> ptrs;
-	HashTabStudentPtr::const_iterator it1 = this->students.begin();
-	HashTabStudentPtr::const_iterator it2 = this->students.end();
-	for(; it1 != it2; it1++) {
-			ptrs.push_back(*it1); //We can make it a bit more complex by considering only records with a condition!
-	}
-	return ptrs;
+vector <StudentPtr> FEUPConsulting::getStudents() const {
+    vector <StudentPtr> ptrs;
+    HashTabStudentPtr::const_iterator it1 = this->students.begin();
+    HashTabStudentPtr::const_iterator it2 = this->students.end();
+    for (; it1 != it2; it1++) {
+        ptrs.push_back(*it1); //We can make it a bit more complex by considering only records with a condition!
+    }
+    return ptrs;
 }
 
-void FEUPConsulting::setStudents(vector<StudentPtr>& newStudents) {
-	for(int i = 0; i < newStudents.size(); i++) students.insert(newStudents[i]);
+void FEUPConsulting::setStudents(vector <StudentPtr> &newStudents) {
+    for (int i = 0; i < newStudents.size(); i++) students.insert(newStudents[i]);
 }
 
-priority_queue<Student> FEUPConsulting::getActiveStudents() const {
-	return activeStudents;
+priority_queue <Student> FEUPConsulting::getActiveStudents() const {
+    return activeStudents;
 }
-void FEUPConsulting::setActiveStudents(priority_queue<Student>& students) {
-	activeStudents = students;
+
+void FEUPConsulting::setActiveStudents(priority_queue <Student> &students) {
+    activeStudents = students;
 }
 
 
@@ -80,8 +81,7 @@ void FEUPConsulting::setActiveStudents(priority_queue<Student>& students) {
 // TODO: Part I   - BST
 //
 
-void FEUPConsulting::addAvailability(Student* student, string expertizeAvailable, unsigned cost) {
-    //MY RESOLUTION
+void FEUPConsulting::addAvailability(Student *student, string expertizeAvailable, unsigned cost) {
     BSTItrIn<Expertize> it(expertizes);
     Expertize expert(expertizeAvailable, cost);
     while (!it.isAtEnd()) {
@@ -110,9 +110,8 @@ void FEUPConsulting::addAvailability(Student* student, string expertizeAvailable
      */
 }
 
-vector<Student*> FEUPConsulting::getCandidateStudents(Project* project) const {
-    //MY RESOLUTION
-    vector<Student*> res;
+vector<Student *> FEUPConsulting::getCandidateStudents(Project *project) const {
+    vector < Student * > res;
     BSTItrIn<Expertize> it(expertizes);
     while (!it.isAtEnd()) {
         if (it.retrieve().getName() == project->getExpertize()) {
@@ -143,8 +142,7 @@ vector<Student*> FEUPConsulting::getCandidateStudents(Project* project) const {
      */
 }
 
-bool FEUPConsulting::assignProjectToStudent(Project* project, Student* student) {
-    //MY RESOLUTION
+bool FEUPConsulting::assignProjectToStudent(Project *project, Student *student) {
     if (project->getConsultant() != NULL || student->getCurrentProject() != "") {
         return false;
     }
@@ -173,8 +171,7 @@ bool FEUPConsulting::assignProjectToStudent(Project* project, Student* student) 
 // TODO: Part II  - Hash Table
 //
 
-void FEUPConsulting::addStudent(Student* student) {
-    //MY RESOLUTION
+void FEUPConsulting::addStudent(Student *student) {
     students.insert(student); //the hash is also different!
 
     /* //original resolution from https://github.com/andrefmrocha
@@ -182,8 +179,7 @@ void FEUPConsulting::addStudent(Student* student) {
      */
 }
 
-void FEUPConsulting::changeStudentEMail(Student* student, string newEMail) {
-    //MY RESOLUTION
+void FEUPConsulting::changeStudentEMail(Student *student, string newEMail) {
     students.erase(student);
     student->setEMail(newEMail);
     students.insert(student);
@@ -200,8 +196,7 @@ void FEUPConsulting::changeStudentEMail(Student* student, string newEMail) {
 // TODO: Part III - Priority Queue
 //
 
-void FEUPConsulting::addActiveStudents(const vector<Student>& candidates, int min) {
-    //MY RESOLUTION
+void FEUPConsulting::addActiveStudents(const vector <Student> &candidates, int min) {
     for (auto st = candidates.begin(); st != candidates.end(); st++) {
         if (st->getPastProjects() > min) {
             activeStudents.push(st);
@@ -217,12 +212,11 @@ void FEUPConsulting::addActiveStudents(const vector<Student>& candidates, int mi
      */
 }
 
-int FEUPConsulting::mostActiveStudent(Student& studentMaximus) {
-    //MY RESOLUTION
+int FEUPConsulting::mostActiveStudent(Student &studentMaximus) {
     if (activeStudents.empty()) {
         return 0;
     }
-    priority_queue<Student> aux = activeStudents;
+    priority_queue <Student> aux = activeStudents;
     Student winner = aux.top();
     aux.pop();
     if (aux.top().getPastProjects().size() == winner.getPastProjects().size()) {

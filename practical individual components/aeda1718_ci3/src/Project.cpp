@@ -7,27 +7,27 @@
 
 #include "Project.h"
 
-Project::Project(string title, string expertize, unsigned cost):
-	title(title), cost(cost), expertize(expertize) {
-	consultant = 0; // TODO: shouldnt this be NULL?
+Project::Project(string title, string expertize, unsigned cost) :
+        title(title), cost(cost), expertize(expertize) {
+    consultant = 0; // TODO: shouldnt this be NULL?
 }
 
 string Project::getTitle() const {
-	return this->title;
+    return this->title;
 }
 
 unsigned Project::getCost() const {
-	return this->cost;
+    return this->cost;
 }
 
 string Project::getExpertize() const {
-	return this->expertize;
+    return this->expertize;
 }
 
-void Project::setConsultant(Student* student) {
-	this->consultant = student;
+void Project::setConsultant(Student *student) {
+    this->consultant = student;
 }
 
-Student* Project::getConsultant() const {
-	return this->consultant;
+Student *Project::getConsultant() const {
+    return this->consultant;
 }

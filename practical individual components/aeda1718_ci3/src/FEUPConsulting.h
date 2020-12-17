@@ -18,77 +18,81 @@
 
 using namespace std;
 
-struct StudentPtrHash
-{
-	int operator() (const StudentPtr& student) const
-	{
-        //MY RESOLUTION
+struct StudentPtrHash {
+    int operator()(const StudentPtr &student) const {
         int hash = 0;
         for (auto ix = student.getEMail().length(); ix++) {
             hash = 37 * hash + student.getEMail()[ix];
         }
         return hash;
 
-        /*
-		return (student.getEMail().size() * student.getName().size())%50;
+        /* //original resolution from https://github.com/andrefmrocha
+        return (student.getEMail().size() * student.getName().size())%50;
          */
-	}
+    }
 
-	bool operator() (const StudentPtr& student1, const StudentPtr& student2) const
-	{
-        //MY RESOLUTION
+    bool operator()(const StudentPtr &student1, const StudentPtr &student2) const {
         return (student1.getEMail() == student2.getEMail());
 
-        /*
-		return student1.getEMail() == student2.getEMail();
+        /* //original resolution from https://github.com/andrefmrocha
+        return student1.getEMail() == student2.getEMail();
          */
-	}
+    }
 };
 
-
-typedef unordered_set<StudentPtr, StudentPtrHash, StudentPtrHash> HashTabStudentPtr;
+typedef unordered_set <StudentPtr, StudentPtrHash, StudentPtrHash> HashTabStudentPtr;
 
 class FEUPConsulting {
-	vector<Project*> projects;
-	BST<Expertize> expertizes;
-	HashTabStudentPtr students;
-	priority_queue<Student> activeStudents;
+    vector<Project *> projects;
+    BST<Expertize> expertizes;
+    HashTabStudentPtr students;
+    priority_queue <Student> activeStudents;
+
 public:
-	FEUPConsulting();
-	FEUPConsulting(vector<Project*> projects);
+    FEUPConsulting();
 
-	void addProjects(vector<Project*> projects);
-	vector<Project*> getProjects() const;
+    FEUPConsulting(vector<Project *> projects);
 
-	// Part I   - BST
-	Expertize getExpertize(string name, unsigned cost);
-	void addNewExpertize(const Expertize & expertize1);
-	void addProject(Project* project);
-	BST<Expertize> getExpertizes() const;
-	// Part II  - Hash Table
-	vector<StudentPtr> getStudents() const;
-	void setStudents(vector<StudentPtr>& newStudents);
-	// Part III - Priority Queue
-	priority_queue<Student> getActiveStudents() const;
-	void setActiveStudents(priority_queue<Student>& students);
+    void addProjects(vector<Project *> projects);
 
+    vector<Project *> getProjects() const;
 
-	// TODO: Implement methods below...
-	// Part I   - BST
-	/* A */ void addAvailability(Student* student, string expertize, unsigned cost);
-	/* B */ vector<Student*> getCandidateStudents(Project* book) const;
-	/* C */ bool assignProjectToStudent(Project* project, Student* student);
+    // Part I   - BST
+    Expertize getExpertize(string name, unsigned cost);
 
-	// Part II  - Hash Table
-	/* D */ void addStudent(Student* user);
-	/* E */ void changeStudentEMail(Student* student, string newEMail);
+    void addNewExpertize(const Expertize &expertize1);
 
-	// Part III - Piority Queue
-	/* F */ void addActiveStudents(const vector<Student>& candidates, int min);
-	/* G */ int mostActiveStudent(Student& studentMaximus);
+    void addProject(Project *project);
+
+    BST<Expertize> getExpertizes() const;
+
+    // Part II  - Hash Table
+    vector <StudentPtr> getStudents() const;
+
+    void setStudents(vector <StudentPtr> &newStudents);
+
+    // Part III - Priority Queue
+    priority_queue <Student> getActiveStudents() const;
+
+    void setActiveStudents(priority_queue <Student> &students);
+
+    // TODO: Implement methods below...
+    // Part I   - BST
+    /* A */ void addAvailability(Student *student, string expertize, unsigned cost);
+
+    /* B */ vector<Student *> getCandidateStudents(Project *book) const;
+
+    /* C */ bool assignProjectToStudent(Project *project, Student *student);
+
+    // Part II  - Hash Table
+    /* D */ void addStudent(Student *user);
+
+    /* E */ void changeStudentEMail(Student *student, string newEMail);
+
+    // Part III - Piority Queue
+    /* F */ void addActiveStudents(const vector <Student> &candidates, int min);
+
+    /* G */ int mostActiveStudent(Student &studentMaximus);
 };
-
-
-
 
 #endif /* SRC_FEUPCONSULTING_H_ */
