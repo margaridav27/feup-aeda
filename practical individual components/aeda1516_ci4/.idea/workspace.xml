@@ -6,13 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a2d5a38-7b9f-4aac-90f3-452c6b39944e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../aeda1718_ci3/src/Expertize.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../aeda1718_ci3/src/Expertize.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aeda1718_ci3/src/FEUPConsulting.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../aeda1718_ci3/src/FEUPConsulting.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aeda1718_ci3/src/FEUPConsulting.h" beforeDir="false" afterPath="$PROJECT_DIR$/../aeda1718_ci3/src/FEUPConsulting.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aeda1718_ci3/src/Project.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../aeda1718_ci3/src/Project.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aeda1718_ci3/src/Student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../aeda1718_ci3/src/Student.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="6a2d5a38-7b9f-4aac-90f3-452c6b39944e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../to do/aeda1415_ci4" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608204619898</updated>
       <workItem from="1608204621121" duration="49000" />
+      <workItem from="1608204862402" duration="15000" />
     </task>
     <servers />
   </component>
@@ -62,5 +57,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

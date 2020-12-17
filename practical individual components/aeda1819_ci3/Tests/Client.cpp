@@ -41,7 +41,6 @@ void Client::addVisiting(string address, string postalCode, string typology, str
 //
 
 bool Client::operator<(const Client& c1) const {
-	if (visitedProperties.size() > c1.getVisitedProperties().size()) return true;
-	else if (visitedProperties.size() == c1.getVisitedProperties().size() && stoi(get<3>(propertyListing)) > stoi(get<3>(c1.getVisiting()))) return true;
-	return false;
+	if (visitedProperties.empty()) return true;
+	else return (stoi(get<3>(propertyListing)) < stoi(get<3>(c1.getVisiting())));
 }

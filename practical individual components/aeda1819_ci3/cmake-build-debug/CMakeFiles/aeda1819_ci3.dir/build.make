@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3"
+CMAKE_SOURCE_DIR = "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/aeda1819_ci3.dir/depend.make
@@ -79,100 +79,100 @@ include CMakeFiles/aeda1819_ci3.dir/flags.make
 CMakeFiles/aeda1819_ci3.dir/main.cpp.obj: CMakeFiles/aeda1819_ci3.dir/flags.make
 CMakeFiles/aeda1819_ci3.dir/main.cpp.obj: CMakeFiles/aeda1819_ci3.dir/includes_CXX.rsp
 CMakeFiles/aeda1819_ci3.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aeda1819_ci3.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\main.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aeda1819_ci3.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\main.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\main.cpp"
 
 CMakeFiles/aeda1819_ci3.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1819_ci3.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\main.cpp" > CMakeFiles\aeda1819_ci3.dir\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\main.cpp" > CMakeFiles\aeda1819_ci3.dir\main.cpp.i
 
 CMakeFiles/aeda1819_ci3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1819_ci3.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\main.cpp" -o CMakeFiles\aeda1819_ci3.dir\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\main.cpp" -o CMakeFiles\aeda1819_ci3.dir\main.cpp.s
 
 CMakeFiles/aeda1819_ci3.dir/Tests/tests.cpp.obj: CMakeFiles/aeda1819_ci3.dir/flags.make
 CMakeFiles/aeda1819_ci3.dir/Tests/tests.cpp.obj: CMakeFiles/aeda1819_ci3.dir/includes_CXX.rsp
 CMakeFiles/aeda1819_ci3.dir/Tests/tests.cpp.obj: ../Tests/tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aeda1819_ci3.dir/Tests/tests.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\Tests\tests.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\tests.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aeda1819_ci3.dir/Tests/tests.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\Tests\tests.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\tests.cpp"
 
 CMakeFiles/aeda1819_ci3.dir/Tests/tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1819_ci3.dir/Tests/tests.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\tests.cpp" > CMakeFiles\aeda1819_ci3.dir\Tests\tests.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\tests.cpp" > CMakeFiles\aeda1819_ci3.dir\Tests\tests.cpp.i
 
 CMakeFiles/aeda1819_ci3.dir/Tests/tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1819_ci3.dir/Tests/tests.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\tests.cpp" -o CMakeFiles\aeda1819_ci3.dir\Tests\tests.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\tests.cpp" -o CMakeFiles\aeda1819_ci3.dir\Tests\tests.cpp.s
 
 CMakeFiles/aeda1819_ci3.dir/Tests/Client.cpp.obj: CMakeFiles/aeda1819_ci3.dir/flags.make
 CMakeFiles/aeda1819_ci3.dir/Tests/Client.cpp.obj: CMakeFiles/aeda1819_ci3.dir/includes_CXX.rsp
 CMakeFiles/aeda1819_ci3.dir/Tests/Client.cpp.obj: ../Tests/Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aeda1819_ci3.dir/Tests/Client.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\Tests\Client.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\Client.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aeda1819_ci3.dir/Tests/Client.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\Tests\Client.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\Client.cpp"
 
 CMakeFiles/aeda1819_ci3.dir/Tests/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1819_ci3.dir/Tests/Client.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\Client.cpp" > CMakeFiles\aeda1819_ci3.dir\Tests\Client.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\Client.cpp" > CMakeFiles\aeda1819_ci3.dir\Tests\Client.cpp.i
 
 CMakeFiles/aeda1819_ci3.dir/Tests/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1819_ci3.dir/Tests/Client.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\Client.cpp" -o CMakeFiles\aeda1819_ci3.dir\Tests\Client.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\Client.cpp" -o CMakeFiles\aeda1819_ci3.dir\Tests\Client.cpp.s
 
 CMakeFiles/aeda1819_ci3.dir/Tests/ClientRecord.cpp.obj: CMakeFiles/aeda1819_ci3.dir/flags.make
 CMakeFiles/aeda1819_ci3.dir/Tests/ClientRecord.cpp.obj: CMakeFiles/aeda1819_ci3.dir/includes_CXX.rsp
 CMakeFiles/aeda1819_ci3.dir/Tests/ClientRecord.cpp.obj: ../Tests/ClientRecord.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aeda1819_ci3.dir/Tests/ClientRecord.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\Tests\ClientRecord.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\ClientRecord.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aeda1819_ci3.dir/Tests/ClientRecord.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\Tests\ClientRecord.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\ClientRecord.cpp"
 
 CMakeFiles/aeda1819_ci3.dir/Tests/ClientRecord.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1819_ci3.dir/Tests/ClientRecord.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\ClientRecord.cpp" > CMakeFiles\aeda1819_ci3.dir\Tests\ClientRecord.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\ClientRecord.cpp" > CMakeFiles\aeda1819_ci3.dir\Tests\ClientRecord.cpp.i
 
 CMakeFiles/aeda1819_ci3.dir/Tests/ClientRecord.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1819_ci3.dir/Tests/ClientRecord.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\ClientRecord.cpp" -o CMakeFiles\aeda1819_ci3.dir\Tests\ClientRecord.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\ClientRecord.cpp" -o CMakeFiles\aeda1819_ci3.dir\Tests\ClientRecord.cpp.s
 
 CMakeFiles/aeda1819_ci3.dir/Tests/Property.cpp.obj: CMakeFiles/aeda1819_ci3.dir/flags.make
 CMakeFiles/aeda1819_ci3.dir/Tests/Property.cpp.obj: CMakeFiles/aeda1819_ci3.dir/includes_CXX.rsp
 CMakeFiles/aeda1819_ci3.dir/Tests/Property.cpp.obj: ../Tests/Property.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/aeda1819_ci3.dir/Tests/Property.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\Tests\Property.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\Property.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/aeda1819_ci3.dir/Tests/Property.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\Tests\Property.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\Property.cpp"
 
 CMakeFiles/aeda1819_ci3.dir/Tests/Property.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1819_ci3.dir/Tests/Property.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\Property.cpp" > CMakeFiles\aeda1819_ci3.dir\Tests\Property.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\Property.cpp" > CMakeFiles\aeda1819_ci3.dir\Tests\Property.cpp.i
 
 CMakeFiles/aeda1819_ci3.dir/Tests/Property.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1819_ci3.dir/Tests/Property.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\Property.cpp" -o CMakeFiles\aeda1819_ci3.dir\Tests\Property.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\Property.cpp" -o CMakeFiles\aeda1819_ci3.dir\Tests\Property.cpp.s
 
 CMakeFiles/aeda1819_ci3.dir/Tests/PropertyTypeItem.cpp.obj: CMakeFiles/aeda1819_ci3.dir/flags.make
 CMakeFiles/aeda1819_ci3.dir/Tests/PropertyTypeItem.cpp.obj: CMakeFiles/aeda1819_ci3.dir/includes_CXX.rsp
 CMakeFiles/aeda1819_ci3.dir/Tests/PropertyTypeItem.cpp.obj: ../Tests/PropertyTypeItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/aeda1819_ci3.dir/Tests/PropertyTypeItem.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\Tests\PropertyTypeItem.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\PropertyTypeItem.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/aeda1819_ci3.dir/Tests/PropertyTypeItem.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\Tests\PropertyTypeItem.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\PropertyTypeItem.cpp"
 
 CMakeFiles/aeda1819_ci3.dir/Tests/PropertyTypeItem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1819_ci3.dir/Tests/PropertyTypeItem.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\PropertyTypeItem.cpp" > CMakeFiles\aeda1819_ci3.dir\Tests\PropertyTypeItem.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\PropertyTypeItem.cpp" > CMakeFiles\aeda1819_ci3.dir\Tests\PropertyTypeItem.cpp.i
 
 CMakeFiles/aeda1819_ci3.dir/Tests/PropertyTypeItem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1819_ci3.dir/Tests/PropertyTypeItem.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\PropertyTypeItem.cpp" -o CMakeFiles\aeda1819_ci3.dir\Tests\PropertyTypeItem.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\PropertyTypeItem.cpp" -o CMakeFiles\aeda1819_ci3.dir\Tests\PropertyTypeItem.cpp.s
 
 CMakeFiles/aeda1819_ci3.dir/Tests/REAgency.cpp.obj: CMakeFiles/aeda1819_ci3.dir/flags.make
 CMakeFiles/aeda1819_ci3.dir/Tests/REAgency.cpp.obj: CMakeFiles/aeda1819_ci3.dir/includes_CXX.rsp
 CMakeFiles/aeda1819_ci3.dir/Tests/REAgency.cpp.obj: ../Tests/REAgency.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/aeda1819_ci3.dir/Tests/REAgency.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\Tests\REAgency.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\REAgency.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/aeda1819_ci3.dir/Tests/REAgency.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aeda1819_ci3.dir\Tests\REAgency.cpp.obj -c "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\REAgency.cpp"
 
 CMakeFiles/aeda1819_ci3.dir/Tests/REAgency.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aeda1819_ci3.dir/Tests/REAgency.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\REAgency.cpp" > CMakeFiles\aeda1819_ci3.dir\Tests\REAgency.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\REAgency.cpp" > CMakeFiles\aeda1819_ci3.dir\Tests\REAgency.cpp.i
 
 CMakeFiles/aeda1819_ci3.dir/Tests/REAgency.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aeda1819_ci3.dir/Tests/REAgency.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\Tests\REAgency.cpp" -o CMakeFiles\aeda1819_ci3.dir\Tests\REAgency.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\Tests\REAgency.cpp" -o CMakeFiles\aeda1819_ci3.dir\Tests\REAgency.cpp.s
 
 # Object files for target aeda1819_ci3
 aeda1819_ci3_OBJECTS = \
@@ -201,7 +201,7 @@ aeda1819_ci3.exe: lib/libgtestd.a
 aeda1819_ci3.exe: CMakeFiles/aeda1819_ci3.dir/linklibs.rsp
 aeda1819_ci3.exe: CMakeFiles/aeda1819_ci3.dir/objects1.rsp
 aeda1819_ci3.exe: CMakeFiles/aeda1819_ci3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable aeda1819_ci3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable aeda1819_ci3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\aeda1819_ci3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -214,6 +214,6 @@ CMakeFiles/aeda1819_ci3.dir/clean:
 .PHONY : CMakeFiles/aeda1819_ci3.dir/clean
 
 CMakeFiles/aeda1819_ci3.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3" "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3" "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\cmake-build-debug" "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\cmake-build-debug" "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\aeda1819_ci3\cmake-build-debug\CMakeFiles\aeda1819_ci3.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3" "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3" "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\cmake-build-debug" "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\cmake-build-debug" "C:\Users\Margarida Viera\Desktop\uni, 2nd year\AEDA\feup-aeda\practical individual components\aeda1819_ci3\cmake-build-debug\CMakeFiles\aeda1819_ci3.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/aeda1819_ci3.dir/depend
 
