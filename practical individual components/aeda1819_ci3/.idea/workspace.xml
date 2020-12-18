@@ -39,14 +39,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aeda1516_ci4" />
   </component>
   <component name="RunManager" selected="Google Test.test_1.test_c">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="aeda1819_ci3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aeda1819_ci3" TARGET_NAME="aeda1819_ci3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aeda1819_ci3" RUN_TARGET_NAME="aeda1819_ci3" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -111,6 +106,7 @@
       <workItem from="1608043075687" duration="22094000" />
       <workItem from="1608068639561" duration="3110000" />
       <workItem from="1608220774870" duration="114000" />
+      <workItem from="1608292558022" duration="11000" />
     </task>
     <servers />
   </component>

@@ -24,12 +24,13 @@ void Cinema::addService(string service1) { services.push_back(service1); }
 
 void Cinema::addFilmTime(const FilmTime &ft1) { timetable.insert(ft1); }
 
-
 // TODO
 
 bool Cinema::operator<(const Cinema &cr) const {
-    if (distance > cr.getDistance()) return true;
-    else if (distance == cr.getDistance() && services.size() < cr.getServices().size()) return true;
+    if (distance > cr.getDistance())
+        return true;
+    else if (distance == cr.getDistance() && services.size() < cr.getServices().size())
+        return true;
     return false;
 
     /* //original resolution from https://github.com/andrefmrocha
@@ -121,42 +122,22 @@ bool Cinema::modifyHour(unsigned h1, unsigned room1, unsigned h2) {
 
 //a3
 unsigned Cinema::addFilm(Film *f1, unsigned h1) {
-    BSTItrIn<FilmTime> itr(timetable);
-    while (!itr.isAtEnd()) {
-        if (itr.retrieve().getHour() != h1) {
-            FilmTime schedule = itr.retrieve();
-            timetable.remove(itr.retrieve());
-            schedule.setFilm(f1);
-            schedule.setHour(h1);
-            timetable.insert(schedule);
-            return itr.retrieve().getRoomID();
+    //original resolution from https://github.com/andrefmrocha
+    bool found = false;
+    for (unsigned id = 1; id <= numberOfRooms; id++) {
+        found = false;
+        BSTItrIn<FilmTime> it(timetable);
+        while (!it.isAtEnd()) {
+            if (it.retrieve().getRoomID() == id && it.retrieve().getHour() == h1) {
+                found = true;
+                break;
+            }
+            it.advance();
+        }
+        if (!found) {
+            timetable.insert(FilmTime(h1, f1, id));
+            return id;
         }
     }
     return 0;
-
-    /* //original resolution from https://github.com/andrefmrocha
-	bool found = false;
-	for(unsigned id = 1 ; id<=numberOfRooms ; id++) {
-		found = false;
-		BSTItrIn<FilmTime> it(timetable);
-		while(!it.isAtEnd()) {
-			if (it.retrieve().getRoomID() == id && it.retrieve().getHour() == h1) {
-				found = true;
-				break;
-			}
-			it.advance();
-		}
-		if(!found) {
-			timetable.insert(FilmTime(h1 , f1 ,id));
-			return id;
-		}
-	}
-	return 0;
-     */
 }
-
-
-
-
-
-
