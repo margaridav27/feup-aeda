@@ -6,11 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbdb5f8d-9e29-43d0-a708-576d661375c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Cinema.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cinema.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aeda1819_ci3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aeda1819_ci3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aeda1819_ci3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../aeda1819_ci3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-    </list>
+    <list default="true" id="fbdb5f8d-9e29-43d0-a708-576d661375c7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../shared/aeda-2nd-project-t4g2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608292570222</updated>
       <workItem from="1608292571528" duration="25000" />
+      <workItem from="1608487351447" duration="16000" />
     </task>
     <servers />
   </component>
@@ -60,5 +57,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
