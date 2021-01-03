@@ -1,5 +1,5 @@
 # feup-aeda
-Weekly exercises on the different data structures taught during the semester.
+Weekly exercises on the different data structures taught during the semester.\n
 1st and 2nd of the project Pitch Co. developded with Beatriz Aguiar (beatriz-ag, https://github.com/beatriz-ag) and Matilde Oliveira (maildejoliveira, https://github.com/maildejoliveira).
 
 **Disclaimer**
